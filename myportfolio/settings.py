@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-a275t9e1gjdjp6=cw+^=5r)#6voj7e+#&jfao779e08&)1whdc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['6446-2401-4900-1c09-2bac-a403-8683-1462-ff86.ngrok-free.app','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -134,4 +134,4 @@ SESSION_COOKIE_SECURE = False
 #telegram integration
 TELEGRAM_BOT_TOKEN = "6620961038:AAGiB3EmiP4T58zLpqmrumAX93KFsiwxZBQ"
 TELEGRAM_CHAT_ID = "-951579608"
-CSRF_TRUSTED_ORIGINS = ['https://6446-2401-4900-1c09-2bac-a403-8683-1462-ff86.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = []
